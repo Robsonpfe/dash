@@ -1,0 +1,8 @@
+{
+  "name": "TechOps Triangulo ",
+  "description": "Central executiva para gestores acompanharem chamados, SLAs, métricas de atendimento e performance da equipe de tecnologia em tempo real, otimizado para web e mobile.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

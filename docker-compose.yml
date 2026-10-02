@@ -1,0 +1,11 @@
+services:
+  techops-triangulo:
+    build: .
+    container_name: techops-triangulo
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
+      - NODE_ENV=production
+      - MOVIDESK_API_KEY=fe1b5cc5-4b9f-49e1-8305-99cfae00bef5
